@@ -1,0 +1,46 @@
+body{
+    padding: 30px;
+}
+
+header{
+    background-color: darksalmon;
+    text-align: center;
+    font-size: 35px;
+    color: floralwhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 50px 30px 50px 30px;
+    /* margin: 20px;     */
+    border: 10px solid black;
+}
+
+section{
+    display: flex;
+}
+
+nav{
+    flex: 1;
+}
+article{
+    flex: 3;
+}
+
+h1{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    font-family: serif;
+}
+
+nav ol{
+    color: cadetblue;
+    list-style: none;
+}

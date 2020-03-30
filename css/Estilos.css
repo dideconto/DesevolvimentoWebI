@@ -3,6 +3,10 @@
     color : red | hexadecimal #a26afb */
 
 /* O estilo inline serve para aplicar o CSS direto em um componente do HTML */
+body{
+    /* background-image:url(../images/foto.jfif) ; */    
+    text-align: center;
+}
 
 h3{
     color: gold;
@@ -15,6 +19,12 @@ p{
 #paragrafoEstiloUnico{
     color: blueviolet;
 }
+
+#imgTopo{
+    height: 500px;
+    width: 700px;
+}
+
 
 .paragrafoEstiloClasse{
     color: crimson;
