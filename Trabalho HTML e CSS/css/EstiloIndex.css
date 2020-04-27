@@ -1,0 +1,88 @@
+body {
+    background-color: #c94c4c;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+header {
+    flex: 1;
+    border-bottom: 2px solid brown;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+article {
+    padding: 20px 0px;
+    display: flex;
+}
+
+footer {
+    border-top: 2px solid brown;
+    text-align: center;
+}
+
+#informacoes {
+    flex: 1;
+    border-right: solid 1px brown;
+    padding: 15px;
+}
+
+#aluno1 {
+    flex: 1;
+    padding: 15px;
+    border-right: solid 1px brown;
+}
+
+#aluno2 {
+    flex: 1;
+    padding: 15px;
+    border-right: solid 1px brown;
+}
+
+#aluno3 {
+    flex: 1;
+    padding: 15px;
+}
+
+ol {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    margin-left: 5px;
+}
+
+nav {
+    border-bottom: 2px solid brown;
+    text-align: center;
+}
+
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    background-color: red;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* #dados_pessoais p{
+      text-align: left;
+  } */

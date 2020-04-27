@@ -25,10 +25,14 @@
     display: flex;
 }
 
-div h1{
+#cabecalho h1{
     font-size: 35px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+}
+
+#navegacao ol li{
+    
 }
 
 div{
