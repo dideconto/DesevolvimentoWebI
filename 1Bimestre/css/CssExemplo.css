@@ -1,0 +1,28 @@
+body{
+    padding: 50px;
+}
+
+#cabecalho{
+    background-color: coral;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-bottom: 30px;
+    /* margin: 50px; Todas as direções */
+    /* margin: 50px 30px - 50px cima e baixo e 30px esqueda e direita; */
+    /* margin: 100px 150px 300px 170px - para todas as direções no sentido horário; */
+    border: violet 10px dotted;
+    padding: 50px;
+}
+#conteudo{
+    background-color: coral;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-size: 35px; */
+    /* margin: 50px 30px - 50px cima e baixo e 30px esqueda e direita; */
+    /* margin: 100px 150px 300px 170px - para todas as direções no sentido horário; */
+    border: violet 10px dotted;
+    padding: 50px;
+}

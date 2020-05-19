@@ -1,0 +1,71 @@
+body {
+    background-color: darksalmon;
+    padding: 15px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav {
+    border-top: 2px solid thistle;
+    border-bottom: 2px solid thistle;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    padding: 8px 15px;
+}
+
+a:hover {
+    background-color: tomato;
+    padding: 12px 20px;
+}
+
+footer {
+    border-top: 2px solid thistle;
+    text-align: center;
+}
+
+article {
+    height: 400px;
+    display: flex;
+}
+
+#esquerda {
+    background-color: brown;
+    flex: 1;
+}
+
+#direita {
+    background-color: cornflowerblue;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+#cima{
+    background-color: cyan;
+    flex: 1;
+}
+#meio{
+    background-color: darkmagenta;
+    flex: 1;
+}
+#baixo{
+    background-color: darkslategray;
+    flex: 1;
+}

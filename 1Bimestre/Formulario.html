@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Formulário em HTML</title>
+</head>
+
+<body>
+asdasd
+    <form action="Tabela.html" method="GET">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="txtNome">Nome:</label>
+            <input type="text" name="txtNome" id="txtNome" placeholder="Digite o nome"></br>
+
+            <label for="txtDescricao">Descrição</label>
+            <textarea name="txtDescricao" id="txtDescricao" rows="6" cols="50"
+                placeholder="Descrição da pessoa"></textarea></br>
+
+            <label for="selEstados">Estados</label>
+            <select name="selEstados" id="selEstados" multiple>
+                <!-- size="2" -->
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </select></br>
+
+            <input type="submit" value="Enviar!">
+        </fieldset>
+        <fieldset>
+            <legend>Fieldset de Exemplo</legend>
+            <label for="txtSenha">Senha</label>
+            <input type="password" name="txtSenha" id="txtSenha"></br>
+
+            <label for="txtData">Data</label>
+            <input type="date" name="txtData" id="txtData"></br>
+            
+            <label for="txtEmail">E-mail</label>
+            <input type="email" name="txtEmail" id="txtEmail"></br>
+
+            <input type="radio" name="rdoSexo" id="rdoMasculino" value="Masculino">
+            <label for="rdoMasculino">Masculino</label>
+            <input type="radio" name="rdoSexo" id="rdoFeminino" value="Feminino">
+            <label for="rdoFeminino">Feminino</label></br>
+
+            <input type="checkbox" name="chkBiciclieta" id="chkBiciclieta" value="Bicicleta">
+            <label for="chkBiciclieta">Bicicleta</label>
+
+            <input type="checkbox" name="chkBCarro" id="chkBCarro" value="Carro">
+            <label for="chkBCarro">Carro</label>
+
+            <input type="checkbox" name="chkBarco" id="chkBarco" value="Barco">
+            <label for="chkBarco">Barco</label>
+
+        </fieldset>
+    </form>
+    <input type="text" name="" id="">
+</body>
+
+</html>

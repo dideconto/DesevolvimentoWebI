@@ -1,0 +1,15 @@
+#estilo{
+    background-color: deeppink;
+}
+
+div{
+    background-color: deeppink;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+.estiloClasse{
+    background-color: firebrick;
+    color: floralwhite;
+    font-size: 35px;
+}

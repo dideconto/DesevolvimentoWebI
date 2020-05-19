@@ -1,0 +1,106 @@
+body {
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+header {
+    flex: 1;
+    background-color: #c94c4c;
+    padding: 1px 30px 1px 30px;
+    color: white;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+article {
+    padding: 20px 0px;
+    display: flex;
+    height: 400px;
+}
+
+#esquerda{
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 5;
+}
+#direita{
+    background-color: gainsboro;
+    padding: 15px;
+    border-radius: 15px;
+    flex: 1;
+    margin-left: 5;
+}
+
+footer {
+    border-top: 2px solid brown;
+    text-align: center;
+    color: black;
+}
+
+
+
+span {
+    font-weight: bold;
+}
+
+input, textarea, select{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #b9bdc1;
+    width: 95%;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+fieldset{
+    width: 100%;
+    border: none;
+}
+
+input[type=submit]{
+    background-color: #f44336;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 95%;
+}
+
+legend{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid;
+    width: 85%;
+}
+
+label{
+    font-size: 15px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+table{
+    width: 100%;
+}
+
+.inputesquerda:hover{
+    border: solid 2px #f44336;
+}
+
+.inputdireita:hover{
+    border: solid 2px cornflowerblue;
+}
