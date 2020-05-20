@@ -33,3 +33,4 @@ if (inteiro === inteiroTexto) {
 } else {
     console.log('Diferente');
 }
+
